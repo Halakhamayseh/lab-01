@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 *{
     box-sizing: border-box;
-    margin: 0;
+    padding: 0px;
+    
 }
 
 body{
     width:100%; 
    font-family: Bangers;
    background-color: whitesmoke;
-   
+   /* text-align: center; */
+   margin: auto;
+   height: 100%;
+   overflow: hidden;
 }
-
-main{
-    width:100%;
+/* main{
     overflow: hidden;
-}
+} */

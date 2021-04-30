@@ -1,94 +1,141 @@
-@media (max-width: 768px) {
-  .a {
-    height: 75px;
-    width: 480px;
+
+/* labtob */
+@media (max-width:960px) and (min-width:768px){
+.a {
+    height: 100px;
+    /* width: 960px; */
+    width: 100%;
   }
   .b {
-    height: 150px;
-    width: 480px;
+    height: 600px;
+    width: 20.8%;
+    float: left;
+  }
+  .cd{
+    overflow: hidden; 
+     background-color: burlywood;
+    
   }
   .c {
-    height: 125px;
-width: 480px;
+    height: 200px;
+    width: 50%;  
+    float: right;
+    /* line-height: 200px; */
+    
   }
   .d {
-    height: 125px;
-    width: 480px;
+    height: 200px;
+    width: 50%;
+    float: left;
+    /* margin-bottom: 1000px; */
+    /* float: left; */
+    /* line-height: 200px; */
   }
   .efgh{
-   overflow: hidden;
+  overflow: hidden;
+  /* line-height:250px ; */
+  /* float: right;
+  width: 760px; */
   }
-   .e{
+  .e{
  height: 250px;
-    width: 240px;
+    /* width: 190px; */
+     width: 25%;
     float: left;
   }
   .f{
-height: 250px;
-    width: 240px;
+ height: 250px;
+    /* width: 190px; */
+     width: 25%;
     float: right;
   }
   .h{
  height: 250px;
-    width: 240px;
+    /* width: 190px; */
+     width: 25%;
+    float: right;
+  }
+  .g{
+     height: 250px;
+    /* width: 190px;  */
+    width: 25%;
+    float: right; 
+  }
+  .i{
+    /* margin-top: 500px; */
+    /* clear: both; */
+ height: 150px;
+    /* width: 760px; */
+    width: 79.1%;
+    float: right;
+    text-align: 150px;
+  }
+   .efgh{
+    overflow: hidden;
+  }
+}
+
+@media  (max-width:767px) and (min-width:480px) {
+  .a {
+    height: 75px;
+    width: 100%;
+  }
+  .b {
+    height: 150px;
+    width: 100%;
+  }
+  .c {
+    height: 125px;
+width: 100%;
+  }
+  .d {
+    height: 125px;
+    width: 100%;
+  }
+  
+/* .ef{ */
+  /* overflow: hidden; */
+  /* height: 250px;
+  text-align: center; */
+/* } */
+   .e{
+ height: 250px;
+    width:50%;
+    float: left;
+  }
+  .f{
+height: 250px;
+    width: 50%;
+    float: right;
+  }
+  .efgh{
+    overflow: hidden;
+  }
+  .ef{
+overflow: hidden;
+  }
+  .gh{
+overflow: hidden;
+  }
+/* .hg{
+  width: 480px;
+  overflow: hidden;
+  height: 250px;
+} */
+  .h{
+ height: 250px;
+    width: 50%;
     float: right;
   }
   .g{
     height: 250px;
-    width: 240px; 
+    width: 50%; 
     float: left; 
   }
   
   .i{
       height: 80px;
       width: 480px;
-  }
-}
-
-@media (min-width: 769px)
-and (max-width: 960px) {
-.a {
-    height: 100px;
-    width: 960px;
-  }
-  .b {
-    height: 600px;
-    width: 200px;
-  }
-  .c {
-    height: 200px;
-    width: 200px;
-  }
-  .d {
-    height: 200px;
-  }
-  .efgh{
-  overflow: hidden;
-  }
-  .e{
- height: 250px;
-    width: 190px;
-    float: left;
-  }
-  .f{
- height: 250px;
-    width: 190px;
-    
-    float: right;
-  }
-  .h{
- height: 250px;
-    width: 190px;
-    
-    float: right;
-  }
-  .g{
-     height: 250px;
-    width: 190px; 
-    float: left; 
-  }
-  .i{
- height: 150px;
-    width: 760px;
+      /* line-height: 80px; */
   }
 }
